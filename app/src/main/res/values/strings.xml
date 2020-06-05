@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Students Companion</string>
+    <string name="student_s_companion" tools:ignore="StringEscaping">Students Companion</string>
+    <string name="welcome_user">Welcome User</string>
+    <string name="req_field">This Field is required</string>
+    <string name="academics">Academics</string>
+    <string name="syllabus">Syllabus</string>
+    <string name="to_do_list">To-Do List</string>
+    <string name="time_table">Time Table</string>
+    <string name="log_out">Log Out</string>
+
+    <array name="Headings_list">
+
+        <item>Homework</item>
+        <item>Projects</item>
+        <item>Internships</item>
+    </array>
+
+    <string-array name="Syllabus_semester_spinner">
+        <item>First Semester</item>
+        <item>Second Semester</item>
+        <item>Third Semester</item>
+        <item>Fourth Semester</item>
+        <item>Fifth Semester</item>
+        <item>Sixth Semester</item>
+        <item>Seventh Semester</item>
+        <item>Eighth Semester</item>
+    </string-array>
+
+    <string name="First">Syllabus: EGD,MATHS-I,CHEM \n Reference: MATHS: ALOK PUBLICATIONS,
+        CHEM: LONGMAN BOOKS
+    </string>
+    <string name="Second">Syllabus: PHYSICS,MATHS-II,BEE \n Reference: MATHS: ALOK PUBLICATIONS,
+        PHYSICS: LONGMAN BOOKS
+    </string>
+    <string name="Third">Syllabus: OOPUJ,MATHS-III,DSC \n Reference: MATHS: ALOK PUBLICATIONS,
+        OOPUJ: RASHMI KANTA DAS
+    </string>
+    <string name="Fourth">Syllabus: DAA,Discrete Maths,COA \n Reference: MATHS: ALOK PUBLICATIONS,
+        DAA: Michael T.Goodrich,WILEY books
+    </string>
+    <string name="Fifth">Syllabus: Soft Computing,Computer Networks \n Reference: Forouzan,McGrawHill
+    </string>
+    <string name="Sixth">Syllabus: System Simulation, Microprocessors\n Reference: Oxford Books
+    </string>
+    <string name="Seventh">Syllabus: Software Engineering, Visual Programming\n Reference: Mike,McGrawHill
+    </string>
+    <string name="Eighth">Syllabus: Advanced Computer Architecture\n Reference: Kai Hwang
+    </string>
+    <string name="save_continue"><![CDATA[Save & Continue]]></string>
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/Login_ImageView"
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_logo" />
+
+        <EditText
+            android:id="@+id/login_emailid"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/Login_ImageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/text"
+            android:drawableLeft="@drawable/ic_email_id"
+            android:ems="10"
+            android:hint="Email-ID"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/login_password"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/login_emailid"
+            android:layout_alignStart="@id/login_emailid"
+            android:layout_alignLeft="@id/login_emailid"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/text"
+            android:drawableLeft="@drawable/ic_password"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Login_CardView"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/login_password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            app:cardBackgroundColor="@color/colorAccent"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/login_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="Login"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/Login_CardView"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:id="@+id/login_new_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:drawableLeft="@drawable/ic_person_add_black_24dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="New User?Register Here"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/login_forgot_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/ic_lock_black_24dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Forgot Password"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>

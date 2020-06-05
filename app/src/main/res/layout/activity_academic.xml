@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AcademicActivity">
+
+    <include
+        android:id="@+id/include2"
+        layout="@layout/toolbar_layout_students"></include>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="376dp"
+        android:layout_height="58dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="bottom"
+        android:text="Academic Section"
+        android:textAlignment="textStart"
+        android:textColor="@color/colortext"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/include"
+        app:layout_constraintEnd_toEndOf="@+id/include"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/include"
+        app:layout_constraintTop_toTopOf="@+id/include"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="RtlCompat" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="396dp"
+        android:layout_height="191dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="5dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="About the College:\nThe College is the first choice for the top rankers of various Joint Entrance Examinations. The college regularly conducts seminars, symposia, workshops, ISTE sponsored programmes, Teachers’ Training Programmes, short term courses, etc. to motivate the students, faculty members and staffs to achieve the best.Apart from it the college helps in developing communication skill and personality development of an individual.Moreover,student participate in different projects run by the faculty members and gain much technical exposure. The college prepares students for B. Tech., B.Arch., B. Plan, M. Tech., M. Arch, M. Plan, MCA, M.Sc., Integrated M.Sc. and Ph.D. degrees in the following branches with duration."
+        android:textAlignment="textStart"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="396dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="Contact Details:\nFor Queries or any type of further Assistance, You can use your Dashboard to contact us via e-mail, or call us using the call button or even visit our official facebook handle.\nYou can use the link at the bottom of this page to navigate to the dashboard"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText4" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="You can use this Section to apply for BACK PAPER REGISTRATION as well by clicking the below link"
+        android:textColor="@color/colordashboardtext"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText5" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="373dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.797">
+
+        <TextView
+            android:id="@+id/Academic_section_dashboard_textview"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="0dp"
+            android:layout_alignParentBottom="true"
+            android:drawableLeft="@drawable/ic_syllabus_dashboard"
+            android:text="Back to Dashboard"
+            android:textColor="@color/colorAccent"
+            android:textSize="15sp"
+             />
+        <TextView
+            android:id="@+id/Academic_section_back_textview"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="0dp"
+            android:layout_alignParentBottom="true"
+            android:drawableRight="@drawable/ic_arrow_forward"
+            android:text="BACK PAPER Registration"
+            android:textColor="@color/colorAccent"
+            android:textSize="15sp"
+            />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

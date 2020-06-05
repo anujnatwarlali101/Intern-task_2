@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#D8F0FC</color>
+    <color name="colorAccent">#FF710B</color>
+    <color name="colortext">#000000</color>
+    <color name="colordashboardtext">#A375AA</color>
+    <color name="colorButtonalarm">#F5F0CB</color>
+    <color name="colorButtonCalci">#EECDCB</color>
+    <color name="colorButtonbrowse">#DDD0F3</color>
+    <color name="colorButtonfb">#E7FCD2</color>
+    <color name="colorButtonemail">#D6D5D5</color>
+    <color name="colorButtoncall">#FCDDE6</color>
+    <color name="colortodobutton">#C377CE</color>
+    <color name="colordashboardtext1">#6B3B72</color>
+</resources>

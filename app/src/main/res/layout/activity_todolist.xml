@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TodolistActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To-do list"
+        android:padding="12dp"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="@color/colordashboardtext"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingBottom="12dp"/>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/todo_list_item_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Add Item"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/todo_heading_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/Headings_list" />
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/todo_list_add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_todo"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingBottom="10dp"
+        android:text="Add"
+        android:textAlignment="center"
+        android:textColor="@color/colortext"
+        android:textSize="25sp" />
+
+    <ListView
+        android:id="@+id/todolistitemsview"
+        android:layout_width="match_parent"
+        android:layout_height="423dp" />
+    <TextView
+        android:id="@+id/todo_list_dashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Dashboard"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_syllabus_dashboard"
+        android:textColor="@color/colorAccent"
+        android:paddingBottom="4dp"/>
+</LinearLayout>

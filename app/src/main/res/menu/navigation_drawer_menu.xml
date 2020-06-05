@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+    <!--suppress AndroidDomInspection -->
+        <item
+        android:id="@+id/Academic_section"
+        android:icon="@mipmap/ic_academia_round"
+        android:title="@string/academics"/>
+    <item
+        android:title="@string/syllabus"
+        android:icon="@mipmap/ic_syllabus_round"
+        android:id="@+id/Syllabus"/>
+
+    <item
+        android:title="@string/to_do_list"
+        android:icon="@mipmap/ic_todo_round"
+        android:id="@+id/todo"/>
+
+    <item
+        android:title="Library Fine Calculator"
+        android:icon="@mipmap/ic_fine_round"
+        android:id="@+id/fine"/>
+    <item
+        android:title="@string/log_out"
+        android:icon="@mipmap/ic_logout_round"
+        android:id="@+id/logout"/>
+
+    </group>
+</menu>
