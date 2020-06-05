@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".timetableActivity"></activity>
         <activity android:name=".TodolistActivity" />
         <activity android:name=".BackPaperRegisterActivity" />
         <activity android:name=".AcademicActivity" />

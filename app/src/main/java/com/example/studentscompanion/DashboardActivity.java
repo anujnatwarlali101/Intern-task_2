@@ -149,6 +149,12 @@ public class DashboardActivity extends AppCompatActivity {
                         drawerLayout.closeDrawers();
                         finish();
                         return true;
+                    case R.id.time_table:
+                        menuItem.setChecked(true);
+                        startActivity(new Intent(DashboardActivity.this,timetableActivity.class));
+                        drawerLayout.closeDrawers();
+                        finish();
+                        return true;
                     case R.id.logout:
                         menuItem.setChecked(true);
                         FirebaseAuth.getInstance().signOut();

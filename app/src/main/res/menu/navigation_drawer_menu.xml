@@ -21,6 +21,12 @@
         android:title="Library Fine Calculator"
         android:icon="@mipmap/ic_fine_round"
         android:id="@+id/fine"/>
+
+    <item
+        android:icon="@mipmap/ic_time_round"
+        android:title="Time Table"
+        android:id="@+id/time_table"/>
+
     <item
         android:title="@string/log_out"
         android:icon="@mipmap/ic_logout_round"
